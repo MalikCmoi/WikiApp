@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wiki API</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div class="container">
+      <section class="recherche">
+        <div class="logo">
+          <img src="/ressources/wiki-logo.png" alt="Logo WikiPedia">
+          <h1>Recherche <span>Wikipedia</span></h1>
+        </div>
+        <form class="form">
+          <input type="text" name="recherche" id="recherche" placeholder="Tapez votre recherche">
+          <button class="btn" type="submit">RECHERCHER</button>
+        </form>
+      </section>
+      <hr>
+
+      <div class="loader">
+        
+      </div>
+
+      <section class="resultat">
+        <div class="container-res">
+        </div>
+        
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
